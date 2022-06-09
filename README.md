@@ -10,10 +10,14 @@ FLORA is a long-range ESP-32-based garden weather station with some unique trick
 Building on my [Plant-Bot](https://github.com/elektroThing/Plant-Bot) project, I was inspired to make a version that is a little more suited for the outdoors and looking after multiple plants.
 
 Key Features;
-* 
+* Compatible with two energy efficient long range protocols - LoRa and ESP-NOW
+* Can we powered solely with a single solar panel
+* Soil Moisture  sensing
+* Temperature and Humidity sensing
+* Easily programmable - USB
+* WiFi and Bluetooth Enabled
 
-
-## Use case
+## Use case | Garden Monitoring System
 
 
 ## Specification
