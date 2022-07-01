@@ -10,7 +10,7 @@ FLORA is a long-range ESP-32-based garden weather station with some unique trick
 Building on my [Plant-Bot](https://github.com/elektroThing/Plant-Bot) project, I was inspired to make a version that is a little more suited for the outdoors and looking after multiple plants.
 
 Key Features;
-* Compatible with two energy efficient long range protocols - LoRa and ESP-NOW
+* Compatible with two energy long-range protocols - LoRa and ESP-NOW
 * Can we powered solely with a single solar panel
 * Soil Moisture  sensing
 * Temperature and Humidity sensing
@@ -18,7 +18,11 @@ Key Features;
 * WiFi and Bluetooth Enabled
 
 ## Use case | Garden Monitoring System
+FLORA's main use case is to make your garden or greenhouse just that little bit smarter. It has an onboard sensor that can be used to measure temperature and humidity, three ports to connect to a soil moisture sensor, and a LoRa module that can be used to transmit data to any other LoRa modules that are on the same frequency band up to 3 miles away.
 
+The goal of this is to ensure more efficient use of resource by generating useful insights to the user as to what the soil moisture levels are like and if the ambient environment is condusive for the particular crop or plant that is being grown. This should hopefully make gardening and home farms more convinient and resistant to our ever changing climate.
+
+This module fits in a simple
 
 ## Specification
 
@@ -38,3 +42,27 @@ Key Features;
     * Interface | SPI 
 * Power | 700mA 3.3V LDO or 1A 3.3V SMPS
 * Mounting | Hammond Case with 2x M.2. Holes
+
+## License
+
+MIT License
+
+Copyright (c) 2022 elektroThing
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
