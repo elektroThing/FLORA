@@ -11,7 +11,7 @@ Building on my [Plant-Bot](https://github.com/elektroThing/Plant-Bot) project, I
 
 Key Features;
 * Compatible with two energy long-range protocols - LoRa and ESP-NOW
-* Can we powered solely with a single solar panel
+* Can be powered solely with a single solar panel
 * Soil Moisture  sensing
 * Temperature and Humidity sensing
 * Easily programmable - USB
@@ -20,9 +20,7 @@ Key Features;
 ## Use case | Garden Monitoring System
 FLORA's main use case is to make your garden or greenhouse just that little bit smarter. It has an onboard sensor that can be used to measure temperature and humidity, three ports to connect to a soil moisture sensor, and a LoRa module that can be used to transmit data to any other LoRa modules that are on the same frequency band up to 3 miles away.
 
-The goal of this is to ensure more efficient use of resource by generating useful insights to the user as to what the soil moisture levels are like and if the ambient environment is condusive for the particular crop or plant that is being grown. This should hopefully make gardening and home farms more convinient and resistant to our ever changing climate.
-
-This module fits in a simple
+The goal of this is to ensure more efficient use of resource by generating useful insights to the user as to what the soil moisture levels are like and if the ambient environment is conducive for the particular crop or plant that is being grown. This should hopefully make gardening and home farms more convinient and resistant to our ever changing climate.
 
 ## Specification
 
